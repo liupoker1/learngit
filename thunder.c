@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include <stdlib.h>
 #include <time.h>
-void leisize(char arr[][1000],int n,int m,char lei)
+void thundersize(char arr[][1000],int n,int m,char lei)
 	{
 	  
 		int i;
@@ -79,7 +79,7 @@ void leisize(char arr[][1000],int n,int m,char lei)
 				printf("\n");
 			}
 			printf("-------------\n");
-		leisize(arr,n,m,lei);	
+		thundersize(arr,n,m,lei);	
 		return 0;
 	}
 
